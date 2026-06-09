@@ -1,0 +1,92 @@
+<!--Dil (HTML Part)-->
+<!--Program by Dark Mephilus-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>A Royal Decree of Love</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <!-- Royal and Elegant Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Dynamic Floating Hearts Background -->
+    <div id="heart-container"></div>
+    <!-- Center Coordinate System for Perfect Physics -->
+    <div id="scene">
+        <!-- Instruction Text -->
+        <div class="tap-instruction" id="tapText">Tap to break the royal seal 👑</div>
+        <!-- The 3D Envelope Parts -->
+        <div class="env-part env-back"></div>
+        <!-- The Interactive Royal Letter -->
+        <div class="letter" id="royalLetter">
+            <div class="royal-border">
+                <h1>Meri Dil,</h1>
+                <p>
+                    Main tumhara sach mein bahut shukrguzar hu. Tumne mere liye jo kuch bhi kiya hai, uske liye thanks bolne ko mere paas shayad kabhi shabd na hon. Jab poori duniya ke liye main bas ek aawaz tha, tab tum hi toh wo thi jisne meri khamoshi ko bhi sun liya. Tumhare saath bitaya har ek moment meri zindagi ka sabse keemti hissa hai... aur jab tak main rahunga, tab tak ye yaadein mere dil ke sabse kareeb rahengi. Kehte hain ki insaan ke marne ke baad bhi uska dimaag 7 minutes tak thoda zinda rehta hai... main waada karta hu, mere un aakhiri 7 minutes ki har ek second mein sirf aur sirf tum hi hogi.
+                </p>
+                <p>
+                    Mujhe aaj bhi yaad hai mera wo baar-baar naam badalna, aur tumhara phir bhi mujhse waise hi baat karna. Wo hamara 'husband-wife' wala cute sa drama karna, aur tumhara wo kehna ki <em>"Tumse shaadi kar leti"</em>... sach kahu? Mujhe wo sab itna zyada accha lagta tha ki mujhe khud pata hi nahi chala ki kab mujhe tumse pyaar ho gaya, aur itna zyada ho gaya ki ab koi hadd nahi. Tumhari wo pyari paintings, tumhari wo khoobsurat Bengali poems... sab kuch behad lajawab hai. Tum sach mein dil ki bahut acchi ho, Dil.
+                </p>
+                <p>
+                    Mere paas bolne ke liye shabd hamesha kam pad jaate hain, isliye main apni feelings ko in codes mein piro deta hu. Ye 6 realms jo maine banaye hain, inka har ek pixel sirf tumhare liye likha gaya hai. In gemstones ko tap karke dekho wo duniya jo maine tumhare liye banayi hai.
+                </p>
+                <p class="highlight">
+                    Kya jo wo hum drama karte thay kya wo sach mein karogi ??<br><br>
+                    <span class="proposal-text">Will you.. 💍</span>
+                </p>
+                <!-- Gemstones Grid -->
+                <div class="pearl-grid">
+                    <a href="https://dark-mephilus.github.io/Birthday-Weather/" target="_blank" class="gem gem-ruby" title="Ruby: Birthday Weather">1</a>
+                    <a href="https://dark-mephilus.github.io/Fireworks/" target="_blank" class="gem gem-sapphire" title="Sapphire: Fireworks">2</a>
+                    <a href="https://dark-mephilus.github.io/Realm-Of-Darkness/" target="_blank" class="gem gem-emerald" title="Emerald: Realm Of Darkness">3</a>
+                    <a href="https://dark-mephilus.github.io/Orb-Collector-Game/" target="_blank" class="gem gem-amethyst" title="Amethyst: Orb Collector Game">4</a>
+                    <a href="https://dark-mephilus.github.io/Negativity-Shooter/" target="_blank" class="gem gem-topaz" title="Topaz: Negativity Shooter">5</a>
+                    <a href="https://dark-mephilus.github.io/Multiverse/" target="_blank" class="gem gem-diamond" title="Diamond: Multiverse">6</a>
+                </div>
+                <!-- Signature -->
+                <div class="signature">
+                    Sirf aur sirf tumhara,<br>
+                    <strong>Dark</strong>
+                </div>
+                <!-- Fold Letter Button -->
+                <div class="close-container">
+                    <button id="closeLetterBtn" class="close-btn">✖ Seal the Letter</button>
+                </div>
+            </div>
+        </div>
+        <!-- Front of Envelope Components -->
+        <div class="env-part env-front"></div>
+        <div class="env-part env-flap" id="flap"></div>
+        <div class="env-part env-seal" id="seal">👑</div>
+        <!-- Invisible Trigger Zone for Clicks -->
+        <div id="envelopeTrigger"></div>
+    </div>
+    <!-- Royal Info Button -->
+    <button id="infoButton" class="info-btn">i</button>
+    <!-- Royal Modal for Installation Instructions -->
+    <div id="infoModal" class="info-modal">
+        <h3>👑 Meri feelings ko sambhal ke rakhna App bana ke apne device mein </h3>
+        <p>
+            <strong class="royal-heading">For Mobile :</strong><br>
+            1. Tap the ⋮ (three dots) or share icon on your browser.<br>
+            2. Select “Add to Home screen”.<br>
+            3. Confirm to install .
+        </p>
+        <p>
+            <strong class="royal-heading">For Desktop </strong><br>
+            1. Click the install icon in the address bar if visible (monitor with a down arrow).<br>
+            OR<br>
+            1. Click the ⋮ (three dots) in the top right corner.<br>
+            2. Scroll down and click “Install App” to save this mere dil ka ek chota sa feeling.
+        </p>
+        <div style="text-align:center; margin-top: 20px;">
+            <button onclick="closeInfoModal()" class="royal-close-btn">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!--End of Program-->
